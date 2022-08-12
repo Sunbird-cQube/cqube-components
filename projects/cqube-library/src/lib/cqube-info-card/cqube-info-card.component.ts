@@ -13,6 +13,7 @@ export class CqubeInfoCardComponent implements OnInit {
   @Input() name: string = "";
   @Input() value: string = "";
   @Input() tooltip: string = "";
+  @Input() tooltipName: string = "";
 
   ngOnInit(): void {
   }
